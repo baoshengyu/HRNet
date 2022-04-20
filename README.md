@@ -1,4 +1,4 @@
-# HRNet
+# A Re-Implementation of HRNets
 
 | Model | Resolution | Top-1 (%)| Download |
 |:--:|:--:|:--:|:--:|
