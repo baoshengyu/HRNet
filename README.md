@@ -4,10 +4,10 @@
 ## ImageNet-1K Accuracy
 | Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 (%)| Download |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [pretrained]() |
-| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 600 | 79.4 | [pretrained]() |
-| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 300 | 80.5 | [pretrained]() |
-| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [pretrained]() |
+| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [hrnet18-6ca9d2049.pth]() |
+| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 600 | 79.4 | [hrnet18-699e7ab89.pth]() |
+| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 300 | 80.5 | [hrnet32-21df535e7.pth]() |
+| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [hrnet32-9f864d2d6.pth]() |
 
 ## Training
 ```bash
