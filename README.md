@@ -1,5 +1,7 @@
 # An Implementation of HRNets for Image Classification
 
+## Note
+- Please refer to [https://github.com/HRNet/HRNet-Image-Classification/](https://github.com/HRNet/HRNet-Image-Classification/) for official implementation.
 
 ## ImageNet-1K Accuracy
 | Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 (%)| Download | Other |
