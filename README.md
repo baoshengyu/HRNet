@@ -13,6 +13,7 @@
 
 ## Training
 ```bash
+# Note: https://github.com/rwightman/pytorch-image-models/blob/master/distributed_train.sh
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/ --model hrnet32 --amp
 ```
 
