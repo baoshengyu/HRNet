@@ -1,7 +1,7 @@
-# An Implementation of HRNets for ImageNet Classification
+# An Implementation of HRNets for Image Classification
 
 
-## ImageNet-1K Validation
+## ImageNet-1K Accuracy
 | Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 (%)| Download |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [pretrained]() |
