@@ -2,16 +2,16 @@
 
 
 ## ImageNet-1K Accuracy
-| Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 (%)| Download |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [hrnet18-6ca9d2049.pth]() |
-| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 600 | 79.4 | [hrnet18-699e7ab89.pth]() |
-| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 300 | 80.5 | [hrnet32-21df535e7.pth]() |
-| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [hrnet32-9f864d2d6.pth]() |
+| Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 (%)| Download | Other |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [hrnet18-6ca9d2049.pth]() | [Training Log]()|
+| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 600 | 79.4 | [hrnet18-699e7ab89.pth]() | [Training Log]()|
+| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 300 | 80.5 | [hrnet32-21df535e7.pth]() | [Training Log]()|
+| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [hrnet32-9f864d2d6.pth]() | [Training Log]()|
 
 ## Training
 ```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/ --model hrnet32
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/ --model hrnet32 --amp
 ```
 
 ## Citation
