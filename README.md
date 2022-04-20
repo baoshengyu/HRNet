@@ -11,9 +11,9 @@
 | HRNet-W32 | 224x224 | 41.2M	| 8.31G | 300 | 80.5 | [hrnet32-21df535e7.pth]() |
 | HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [hrnet32-9f864d2d6.pth](https://drive.google.com/file/d/1lnTLueRkd1VixTSNhFY6CdBm8rOZlvD_/view?usp=sharing) |
 
-## Training (Similar to [DeiT](https://github.com/facebookresearch/deit))
+## Training (similar to [DeiT](https://github.com/facebookresearch/deit))
 ```bash
-# Note: https://github.com/rwightman/pytorch-image-models/blob/master/distributed_train.sh
+# modified from https://github.com/rwightman/pytorch-image-models/
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/ --model hrnet32 --amp
 ```
 
