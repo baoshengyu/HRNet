@@ -1,11 +1,13 @@
-# A Re-Implementation of HRNets
+# An Implementation of HRNets for ImageNet Classification
 
 
-## ImageNet-1K Performance
-| Model | Resolution | Top-1 (%)| Download |
-|:--:|:--:|:--:|:--:|
-| HRNet-W18 | 224x224 | 79.4 | [pretrained]() |
-| HRNet-W32 | 224x224 | 81.2 | [pretrained]() |
+## ImageNet-1K Validation
+| Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 (%)| Download |
+|:--:|:--:|:--:|:--:|:--:|
+| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [pretrained]() |
+| HRNet-W18 | 224x224 | 21.3M	| 3.99G | 600 | 79.4 | [pretrained]() |
+| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 300 | 80.5 | [pretrained]() |
+| HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [pretrained]() |
 
 ## Training
 ```bash
