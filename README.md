@@ -4,7 +4,7 @@
 - Please refer to [https://github.com/HRNet/HRNet-Image-Classification/](https://github.com/HRNet/HRNet-Image-Classification/) for official implementation.
 
 ## ImageNet-1K Accuracy
-| Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 (%)| Download |
+| Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 Acc(%)| Download |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [hrnet18-6ca9d2049.pth](https://drive.google.com/file/d/16mWKwZTlV9ypctaTspL34zdxl4xn7tVf/view?usp=sharing) |
 | HRNet-W18 | 224x224 | 21.3M	| 3.99G | 600 | 79.4 | [hrnet18-699e7ab89.pth](https://drive.google.com/file/d/1Jpw1C9QCJuZTmczpEpW4rclc6JOSuNcU/view?usp=sharing) |
