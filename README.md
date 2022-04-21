@@ -21,19 +21,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/
 ## Reference
 
 ````
-@inproceedings{SunXLW19,
-  title={Deep High-Resolution Representation Learning for Human Pose Estimation},
-  author={Ke Sun and Bin Xiao and Dong Liu and Jingdong Wang},
-  booktitle={CVPR},
-  year={2019}
-}
-
-@article{WangSCJDZLMTWLX19,
+@article{wang2020deep,
   title={Deep High-Resolution Representation Learning for Visual Recognition},
   author={Jingdong Wang and Ke Sun and Tianheng Cheng and 
           Borui Jiang and Chaorui Deng and Yang Zhao and Dong Liu and Yadong Mu and 
           Mingkui Tan and Xinggang Wang and Wenyu Liu and Bin Xiao},
   journal= {TPAMI}
-  year={2019}
+  year={2020}
 }
 ````
