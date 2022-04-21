@@ -11,7 +11,7 @@
 | HRNet-W32 | 224x224 | 41.2M	| 8.31G | 300 | 80.5 | [hrnet32-21df535e7.pth]() |
 | HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [hrnet32-9f864d2d6.pth](https://drive.google.com/file/d/1lnTLueRkd1VixTSNhFY6CdBm8rOZlvD_/view?usp=sharing) |
 
-## Training (similar to [DeiT](https://github.com/facebookresearch/deit))
+## Training
 - All models are trained using the strategy similar to [DeiT](https://github.com/facebookresearch/deit).
 - Trainig scripts are modified from [https://github.com/rwightman/pytorch-image-models/](https://github.com/rwightman/pytorch-image-models/).
 ```bash
