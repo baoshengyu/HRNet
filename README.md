@@ -18,8 +18,8 @@
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/ --model hrnet32 --amp
 ```
 
-## Citation
-If you find this work or code is helpful in your research, please cite:
+## Reference
+
 ````
 @inproceedings{SunXLW19,
   title={Deep High-Resolution Representation Learning for Human Pose Estimation},
