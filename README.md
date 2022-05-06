@@ -1,10 +1,10 @@
 # An Implementation of HRNets for Image Classification
 
 ## Note
-- Please refer to [https://github.com/HRNet/HRNet-Image-Classification/](https://github.com/HRNet/HRNet-Image-Classification/) for official implementation.
+- Please refer to [https://github.com/HRNet/HRNet-Image-Classification/](https://github.com/HRNet/HRNet-Image-Classification/) for the official implementation.
 
 ## ImageNet-1K Accuracy
-| Model | Resolution | #Params | FLOPs |  #Epochs | Top-1 Acc(%)| Download |
+| Model | Resolution | #Params | FLOPs | #Epochs | Top-1 Acc(%)| Pretrained |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | HRNet-W18 | 224x224 | 21.3M	| 3.99G | 300 | 78.6 | [hrnet18-6ca9d2049.pth](https://drive.google.com/file/d/16mWKwZTlV9ypctaTspL34zdxl4xn7tVf/view?usp=sharing) |
 | HRNet-W18 | 224x224 | 21.3M	| 3.99G | 600 | 79.4 | [hrnet18-699e7ab89.pth](https://drive.google.com/file/d/1Jpw1C9QCJuZTmczpEpW4rclc6JOSuNcU/view?usp=sharing) |
@@ -12,7 +12,7 @@
 | HRNet-W32 | 224x224 | 41.2M	| 8.31G | 600 | 81.2 | [hrnet32-9f864d2d6.pth](https://drive.google.com/file/d/1lnTLueRkd1VixTSNhFY6CdBm8rOZlvD_/view?usp=sharing) |
 
 ## Training Example
-- All models are trained similar to [DeiT](https://github.com/facebookresearch/deit).
+- All models are trained using a similar strategy to [DeiT](https://github.com/facebookresearch/deit).
 - Training codes are modified from [https://github.com/rwightman/pytorch-image-models/](https://github.com/rwightman/pytorch-image-models/).
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/ --model hrnet32 --amp
