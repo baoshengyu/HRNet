@@ -2,6 +2,7 @@
 
 ## Note
 - Please refer to [https://github.com/HRNet/HRNet-Image-Classification/](https://github.com/HRNet/HRNet-Image-Classification/) for the official implementation.
+ 
 
 ## ImageNet-1K Accuracy
 | Model | Resolution | #Params | FLOPs | #Epochs | Top-1 Acc(%)| Pretrained Weights |
@@ -13,6 +14,7 @@
 
 ## Training Example
 - All models are trained using a similar strategy to [DeiT](https://github.com/facebookresearch/deit).
+- Environment: pytorch==1.10.0, timm==0.5.0.
 - Training codes are modified from [https://github.com/rwightman/pytorch-image-models/](https://github.com/rwightman/pytorch-image-models/).
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./distributed_train.sh 8 /path/to/imagenet/ --model hrnet32 --amp
